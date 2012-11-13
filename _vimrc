@@ -2,7 +2,7 @@ syntax on
 colorscheme slate
 
 set pastetoggle=<F12>
-set shiftwidth=4
+set shiftwidth=2
 " tab --> space
 set expandtab
 set smartindent
@@ -42,3 +42,12 @@ let g:proj_flags = "imstc"
 
 autocmd! BufRead, BufNewFile *.inc set filetype=php
 autocmd! BufRead, BufNewFile *.html set filetype=php
+
+" Vundle
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+Bundle 'gmarik/vundle'
+Bundle 'Shougo/unite.vim'
+Bundle 'synboo/project.vim'
+filetype plugin indent on

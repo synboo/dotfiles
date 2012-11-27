@@ -7,7 +7,7 @@ set shiftwidth=2
 set expandtab
 set smartindent
 set nu
-set tabstop=4
+set tabstop=2
 set laststatus=2
 set statusline=%<%f\ %m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'}%=%l,%c%V%8P
 set hlsearch
@@ -18,6 +18,11 @@ set list
 set listchars=tab:>-,trail:_
 "highlight SpecialKey term=underline ctermfg=darkgray guifg=darkgray
 set encoding=utf-8
+
+" cursorline
+set cursorline
+set t_Co=256
+hi cursorline term=reverse cterm=none ctermbg=242
 
 setlocal iskeyword+=-
 

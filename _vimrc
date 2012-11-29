@@ -26,6 +26,13 @@ hi cursorline term=reverse cterm=none ctermbg=242
 
 setlocal iskeyword+=-
 
+" good encode settings
+"set termencoding=utf-8
+"set encoding=japan
+"set fileencodings=utf-8,iso-2022-jp,cp932,euc-jp
+"set fenc=utf-8
+"set enc=utf-8
+
 nmap j gj
 nmap k gk
 nmap 0 g0

@@ -1,0 +1,16 @@
+alias rm='rm -i'
+alias vi='vim'
+alias ls='ls -FG'
+alias la='ls -alhFG'
+alias less='less -r'
+alias cp='cp -i'
+alias gidi='git diff | vi -'
+alias gidic='git diff --cached | vi -'
+alias g='grep -rin --color'
+alias gv='grep -vE ""'
+alias sudo='sudo '
+alias cdd='cd ~/Dropbox'
+alias cdw='cd ~/work'
+
+cd() { command cd $@; pwd; ls; }
+PS1="\[\033[1;36m\][\u@hostname:\w]\\$\[\033[0m\] "

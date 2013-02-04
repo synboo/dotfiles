@@ -22,7 +22,7 @@ set encoding=utf-8
 " cursorline
 set cursorline
 set t_Co=256
-hi cursorline term=reverse cterm=none ctermbg=242
+hi cursorline term=reverse cterm=none ctermbg=black
 
 setlocal iskeyword+=-
 

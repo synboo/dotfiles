@@ -12,7 +12,7 @@ alias sudo='sudo '
 alias cdd='cd ~/Dropbox'
 alias cdw='cd ~/work'
 
-cd() { command cd $@; pwd; ls; }
+cd() { command cd "$@"; pwd; ls; }
 
 # COLORS
          RED="\[\033[0;31m\]"
